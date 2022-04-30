@@ -18,7 +18,9 @@ func (this User) Call() {
 
 func main() {
 	user := User{1, "Aceld", 18}
-
+	
+	// user.Call()
+	
 	DoFiledAndMethod(user)
 }
 

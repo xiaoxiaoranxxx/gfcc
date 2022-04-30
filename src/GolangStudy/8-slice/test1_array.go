@@ -22,7 +22,7 @@ func main() {
 
 	//for i := 0; i < 10; i++ {
 	for i := 0; i < len(myArray1); i++ {
-		fmt.Println(myArray1[i])	
+		fmt.Print(myArray1[i])	
 	}
 
 	for index, value := range myArray2 {

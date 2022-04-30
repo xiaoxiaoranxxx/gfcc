@@ -5,7 +5,6 @@ import "fmt"
 type Reader interface {
 	ReadBook()
 }
-
 type Writer interface {
 	WriteBook()
 }
